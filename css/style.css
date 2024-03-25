@@ -101,6 +101,7 @@ body {
     border: none;
     border-radius: 2px;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 .btn-consult:hover {
@@ -530,6 +531,7 @@ body {
         height: 44vh;
         right: 0;
         bottom: -2060px;
+        transform: translateZ(0);
     }
 
     .h3-second-screen {
@@ -714,6 +716,7 @@ body {
         height: 60vh;
         right: 0;
         bottom: -2320px;
+        transform: translateZ(0);
     }
 
     .card {
@@ -914,6 +917,7 @@ body {
         height: 86vh;
         right: 0;
         bottom: -1250px;
+        transform: translateZ(0);
     }
 
     .card {
