@@ -88,6 +88,7 @@ body {
 }
 
 .btn-consult {
+    position: relative;
     width: auto;
     padding: 18px 60px;
     height: 58px;
@@ -102,6 +103,17 @@ body {
     border-radius: 2px;
     cursor: pointer;
     -webkit-appearance: none;
+}
+
+.icon-telegram-btn-consult {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/telegram-icon.svg');
+    background-size: cover;
 }
 
 .btn-consult:hover {
@@ -425,8 +437,34 @@ body {
     }
 
     .btn-consult {
-        margin-left: auto;
-        margin-right: auto;
+        position: relative;
+        display: inline-flex; /* Чтобы кнопка занимала только столько места, сколько нужно */
+        justify-content: center;
+        padding: 18px 40px; /* Отступы кнопки */
+        padding-left: 2px;
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 18px;
+        color: white;
+        background-color: #29A9EB;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        text-decoration: none; /* Убираем подчеркивание ссылки */
+        line-height: 24px; /* Выравниваем высоту текста и иконки */
+        width: 300px; /* Задаем ширину кнопки */
+        height: 58px; /* Задаем высоту кнопки */
+    }
+
+    .icon-telegram-btn-consult {
+        position: absolute;
+        right: 62px; /* Отступ иконки от правого края */
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 25px;
+        background-image: url('../img/telegram-icon.svg'); /* Путь к иконке */
+        background-size: cover;
     }
 
     .error-btn-consult {
@@ -830,6 +868,17 @@ body {
         margin-left: 0;
     }
 
+    .icon-telegram-btn-consult {
+        position: absolute;
+        right: 54px; /* Отступ иконки от правого края */
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 25px;
+        background-image: url('../img/telegram-icon.svg'); /* Путь к иконке */
+        background-size: cover;
+    }
+
     .error-btn-consult {
         width: auto;
         padding: 18px 60px;
@@ -1075,6 +1124,22 @@ body {
         margin: 0;
     }
 
+    .btn-consult {
+        padding: 18px 60px;
+        padding-left: 0;
+    }
+
+    .icon-telegram-btn-consult {
+        position: absolute;
+        right: 62px; /* Отступ иконки от правого края */
+        top: 50%;
+        transform: translateY(-50%);
+        width: 36px;
+        height: 30px;
+        background-image: url('../img/telegram-icon.svg'); /* Путь к иконке */
+        background-size: cover;
+    }
+
     .call-to-action {
         display: none;
     }
@@ -1269,6 +1334,10 @@ body {
         background-color: #75d1ff;
         color: white;
         transition: 0.2s ease-in;
+    }
+
+    .icon-telegram-btn-consult {
+        display: none;
     }
 
     .btn-cta-first-screen-wrapper {
