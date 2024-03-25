@@ -95,8 +95,8 @@ body {
     height: 58px;
     /* padding: 20px;
     padding-top: 18px; */
-    -webkit-font-family: "Roboto";
-    font-family: "Roboto";
+    -webkit-font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: white;
@@ -130,7 +130,7 @@ body {
     height: 58px;
     /* padding: 20px;
     padding-top: 18px; */
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: white;
@@ -152,7 +152,7 @@ body {
     height: 58px;
     /* padding: 20px; */
     padding-top: 16px;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #29A9EB;
@@ -168,7 +168,7 @@ body {
     height: 58px;
     /* padding: 20px; */
     padding-top: 16px;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: white;
@@ -444,8 +444,8 @@ body {
         justify-content: center;
         padding: 18px 40px; /* Отступы кнопки */
         padding-left: 2px;
-        -webkit-font-family: "Roboto";
-        font-family: "Roboto";
+        -webkit-font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 18px;
         color: white;
@@ -888,7 +888,7 @@ body {
         height: 58px;
         /* padding: 20px;
         padding-top: 18px; */
-        font-family: "Roboto";
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 18px;
         color: white;
@@ -1056,7 +1056,7 @@ body {
         height: 58px;
         /* padding: 20px;
         padding-top: 18px; */
-        font-family: "Roboto";
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 18px;
         color: white;
@@ -1322,8 +1322,8 @@ body {
         height: 58px;
         /* padding: 20px;
         padding-top: 18px; */
-        -webkit-font-family: "Roboto";
-        font-family: "Roboto";
+        -webkit-font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 18px;
         color: white;
