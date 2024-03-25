@@ -39,7 +39,7 @@ body {
 }
 
 .first-image {
-    background-image: url(/img/first-photo.png);
+    background-image: url(../img/first-photo.png);
     position: absolute;
     top: 118px;
     left: auto;
@@ -51,7 +51,7 @@ body {
 }
 
 .first-error-image {
-    background-image: url(/img/404-photo.png);
+    background-image: url(../img/404-photo.png);
     position: absolute;
     top: 118px;
     left: auto;
@@ -189,7 +189,7 @@ body {
 
 .icon-arrow-left {
     color: black;
-    background-image: url(/img/Arrow.svg);
+    background-image: url(../img/Arrow.svg);
     background-size: auto;
     background-position: right;
     background-repeat: no-repeat;
@@ -291,7 +291,7 @@ body {
 }
 
 .second-image {
-    background-image: url(/img/second-photo.png);
+    background-image: url(../img/second-photo.png);
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -360,7 +360,7 @@ body {
     z-index: 11;
     width: 40px;
     height: 40px;
-    background-image: url(/img/telegram-icon.svg);
+    background-image: url(../img/telegram-icon.svg);
     background-repeat: no-repeat;
     background-size: 26px 36px;
     top: 4px;
@@ -458,7 +458,7 @@ body {
     }
 
     .first-image {
-        background-image: url(/img/first-photo.png);
+        background-image: url(../img/first-photo.png);
         position: absolute;
         top: 0;
         background-repeat: no-repeat;
@@ -470,7 +470,7 @@ body {
     }
 
     .first-error-image {
-        background-image: url(/img/404-photo.png);
+        background-image: url(../img/404-photo.png);
         position: absolute;
         top: 0;
         background-repeat: no-repeat;
@@ -522,7 +522,7 @@ body {
     }
 
     .second-image {
-        background-image: url(/img/second-photo.png);
+        background-image: url(../img/second-photo.png);
         position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
@@ -648,7 +648,7 @@ body {
     }
 
     .first-image {
-        background-image: url(/img/first-photo.png);
+        background-image: url(../img/first-photo.png);
         position: absolute;
         top: 0;
         background-repeat: no-repeat;
@@ -660,7 +660,7 @@ body {
     }
 
     .first-error-image {
-        background-image: url(/img/404-photo.png);
+        background-image: url(../img/404-photo.png);
         position: absolute;
         top: 0;
         background-repeat: no-repeat;
@@ -706,7 +706,7 @@ body {
     }
 
     .second-image {
-        background-image: url(/img/second-photo.png);
+        background-image: url(../img/second-photo.png);
         position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
@@ -906,7 +906,7 @@ body {
     }
 
     .second-image {
-        background-image: url(/img/second-photo.png);
+        background-image: url(../img/second-photo.png);
         position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1034,7 +1034,7 @@ body {
     }
 
     .first-image {
-        background-image: url(/img/first-photo.png);
+        background-image: url(../img/first-photo.png);
         position: absolute;
         top: 118px;
         left: auto;
@@ -1046,7 +1046,7 @@ body {
     }
 
     .first-error-image {
-        background-image: url(/img/404-photo.png);
+        background-image: url(../img/404-photo.png);
         position: absolute;
         top: 90px;
         left: auto;
@@ -1183,7 +1183,7 @@ body {
     }
 
     .first-image {
-        background-image: url(/img/first-photo.png);
+        background-image: url(../img/first-photo.png);
         position: absolute;
         top: 118px;
         left: auto;
@@ -1195,7 +1195,7 @@ body {
     }
 
     .first-error-image {
-        background-image: url(/img/404-photo.png);
+        background-image: url(../img/404-photo.png);
         position: absolute;
         top: 118px;
         left: auto;
@@ -1292,7 +1292,7 @@ body {
 
     .icon-arrow-left {
         color: black;
-        background-image: url(/img/Arrow.svg);
+        background-image: url(../img/Arrow.svg);
         background-size: auto;
         background-position: right;
         background-repeat: no-repeat;
@@ -1379,7 +1379,7 @@ body {
     }
 
     .second-image {
-        background-image: url(/img/second-photo.png);
+        background-image: url(../img/second-photo.png);
         position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1448,7 +1448,7 @@ body {
         z-index: 11;
         width: 40px;
         height: 40px;
-        background-image: url(/img/telegram-icon.svg);
+        background-image: url(../img/telegram-icon.svg);
         background-repeat: no-repeat;
         background-size: 26px 36px;
         top: 4px;
@@ -1491,7 +1491,7 @@ body {
     }
 
     .first-image {
-        background-image: url(/img/first-photo.png);
+        background-image: url(../img/first-photo.png);
         position: absolute;
         top: 118px;
         left: auto;
@@ -1503,7 +1503,7 @@ body {
     }
 
     .first-error-image {
-        background-image: url(/img/404-photo.png);
+        background-image: url(../img/404-photo.png);
         position: absolute;
         top: 118px;
         left: auto;
@@ -1515,7 +1515,7 @@ body {
     }
 
     .second-image {
-        background-image: url(/img/second-photo.png);
+        background-image: url(../img/second-photo.png);
         position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1598,7 +1598,7 @@ body {
         z-index: 11;
         width: 40px;
         height: 40px;
-        background-image: url(/img/telegram-icon.svg);
+        background-image: url(../img/telegram-icon.svg);
         background-repeat: no-repeat;
         background-size: 26px 36px;
         top: 4px;
