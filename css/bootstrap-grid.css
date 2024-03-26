@@ -35,6 +35,12 @@ html {
   }
 }
 
+@media (min-width: 425px) {
+  .container, .container-sm {
+    max-width: 405px;
+  }
+}
+
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 540px;

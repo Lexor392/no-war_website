@@ -439,9 +439,11 @@ body {
 
     .btn-consult {
         position: relative;
-        display: inline-flex; /* Чтобы кнопка занимала только столько места, сколько нужно */
+        display: inline-flex;
+        /* Чтобы кнопка занимала только столько места, сколько нужно */
         justify-content: center;
-        padding: 18px 40px; /* Отступы кнопки */
+        padding: 18px 40px;
+        /* Отступы кнопки */
         padding-left: 2px;
         -webkit-font-family: "Roboto", sans-serif;
         font-family: "Roboto", sans-serif;
@@ -452,20 +454,26 @@ body {
         border: none;
         border-radius: 2px;
         cursor: pointer;
-        text-decoration: none; /* Убираем подчеркивание ссылки */
-        line-height: 24px; /* Выравниваем высоту текста и иконки */
-        width: 300px; /* Задаем ширину кнопки */
-        height: 58px; /* Задаем высоту кнопки */
+        text-decoration: none;
+        /* Убираем подчеркивание ссылки */
+        line-height: 24px;
+        /* Выравниваем высоту текста и иконки */
+        width: 300px;
+        /* Задаем ширину кнопки */
+        height: 58px;
+        /* Задаем высоту кнопки */
     }
 
     .icon-telegram-btn-consult {
         position: absolute;
-        right: 62px; /* Отступ иконки от правого края */
+        right: 62px;
+        /* Отступ иконки от правого края */
         top: 50%;
         transform: translateY(-50%);
         width: 30px;
         height: 25px;
-        background-image: url('../img/telegram-icon.svg'); /* Путь к иконке */
+        background-image: url('../img/telegram-icon.svg');
+        /* Путь к иконке */
         background-size: cover;
     }
 
@@ -564,14 +572,14 @@ body {
 
     .second-image {
         background-image: url(../img/second-photo.png);
-        position: absolute;
+        position: relative;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
+        width: 100vw;
         height: 44vh;
-        right: 0;
+        right: 8px;
         -webkit-bottom: -2060px;
-        bottom: -2060px;
+        bottom: 600px;;
         transform: translateZ(0);
     }
 
@@ -595,7 +603,8 @@ body {
     }
 
     .third-section-wrapper {
-        margin-bottom: 120px;
+        margin-bottom: 60px;
+        height: 640px;
     }
 
     .video-play-button {
@@ -612,6 +621,31 @@ body {
 
     .video-play-button span {
         display: none;
+    }
+}
+
+@media (min-width: 425px) {
+    .second-btn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .second-image {
+        background-image: url(../img/second-photo.png);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 44vh;
+        right: 8px;
+        -webkit-bottom: 580px;
+        bottom: 580px;
+        transform: translateZ(0);
+    }
+
+    .third-section-wrapper {
+        margin-bottom: 60px;
+        height: 640px;
     }
 }
 
@@ -774,7 +808,7 @@ body {
         margin-right: auto;
         text-align: center;
         width: 700px;
-        margin-top: 540px;
+        margin-top: 570px;
     }
 
     .cta-second-screen-wrapper {
@@ -792,6 +826,7 @@ body {
 
     .third-section-wrapper {
         margin-bottom: 142px;
+        height: 740px;
     }
 
     .number-li {
@@ -874,12 +909,14 @@ body {
 
     .icon-telegram-btn-consult {
         position: absolute;
-        right: 54px; /* Отступ иконки от правого края */
+        right: 54px;
+        /* Отступ иконки от правого края */
         top: 50%;
         transform: translateY(-50%);
         width: 30px;
         height: 25px;
-        background-image: url('../img/telegram-icon.svg'); /* Путь к иконке */
+        background-image: url('../img/telegram-icon.svg');
+        /* Путь к иконке */
         background-size: cover;
     }
 
@@ -1000,7 +1037,8 @@ body {
     }
 
     .third-section-wrapper {
-        margin-bottom: 142px;
+        margin-bottom: 0;
+        height: 350px;
     }
 
     .number-li {
@@ -1135,12 +1173,14 @@ body {
 
     .icon-telegram-btn-consult {
         position: absolute;
-        right: 62px; /* Отступ иконки от правого края */
+        right: 62px;
+        /* Отступ иконки от правого края */
         top: 50%;
         transform: translateY(-50%);
         width: 36px;
         height: 30px;
-        background-image: url('../img/telegram-icon.svg'); /* Путь к иконке */
+        background-image: url('../img/telegram-icon.svg');
+        /* Путь к иконке */
         background-size: cover;
     }
 
@@ -1220,7 +1260,8 @@ body {
     }
 
     .third-section-wrapper {
-        margin-bottom: 200px;
+        margin-bottom: 0;
+        height: 460px;
     }
 
     .video-play-button {
@@ -1464,7 +1505,7 @@ body {
         width: 50vw;
         height: 116vh;
         right: 0;
-        bottom: -1680px;
+        bottom: -1650px;
     }
 
     .cta-second-screen-wrapper {
@@ -1473,6 +1514,7 @@ body {
 
     .third-section-wrapper {
         margin-bottom: 200px;
+        height: auto;
     }
 
     .video-play-button {
